@@ -1,0 +1,27 @@
+@page
+@model ProyectoCiclo3.App.Frontend.Pages.FormAvionesModel
+@{
+}
+
+<div class="text-center">
+    <form method="POST">
+        <label for="marca" class="form-label">Marca:</label>
+        <input type="text" class="form-control" id="marca" name="marca" placeholder="Marca" required>
+
+        <label for="modelo" class="form-label">Modelo:</label>
+        <input type="text" class="form-control" id="modelo" name="modelo" placeholder="Modelo" required>
+
+        <label for="numero_asientos" class="form-label">Número de asientos:</label>
+        <input type="number" class="form-control" id="numero_asientos" name="numero_asientos" placeholder="Numero de asientos" required>
+
+        <label for="numero_baños" class="form-label">Número de baños:</label>
+        <input type="number" class="form-control" id="numero_baños" name="numero_baños" placeholder="Numero de baños" required>
+
+        <label for="capacidad_max_peso" class="form-label">Capacidad máxima en peso:</label>
+        <input type="number" class="form-control" id="capacidad_max_peso" name="capacidad_max_peso" placeholder="Capacidad máxima en peso" required>
+
+        <hr>
+        
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
